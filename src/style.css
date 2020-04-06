@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('img/d5ae8190f0aa7dfbe0b01f336f29d44094b967b5.webp');
+}
+header {
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+.trello-img {
+  width: 80%;
+  margin: auto;
+  color: pink;
+  display: flex;
+  justify-content: center;
+}
+.trello-img img {
+  height: 5vw;
+  opacity: 80%;
+}
+.board-name {
+  margin-left: 2vw;
+}
+.allCards {
+  max-height: 20vw;
+  overflow: scroll;
+}
+.reviewList,
+.reviewList h4 {
+  margin-left: 1vw;
+}
+.reviewList {
+  background-color: rgb(175, 156, 156);
+  width: 25vw;
+  max-height: 45vw;
+  margin-bottom: 2vw;
+}
+.card {
+  background-color: white;
+  margin: 1vw;
+  padding: 1vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card p {
+  margin: 0;
+}
+.checkList {
+  width: 5vw;
+  padding-left: 1vw;
+  background-color: rgb(144, 206, 144);
+}
+.card label {
+  background-color: rgb(135, 190, 135);
+}
+
+.addButton {
+  width: 22vw;
+  padding: 1vw;
+  margin-left: 1vw;
+  background-color: grey;
+}
+.hideButtons {
+  display: flex;
+}
+.hideDiv {
+  display: none;
+}
+.hidediv {
+  margin: 0;
+}
+.hidediv input {
+  padding: 1vw;
+  width: 13vw;
+  border: 0.05vw solid navy;
+}
+.hideButton,
+.hideButton1 {
+  margin-right: 1vw;
+}
+.checkListInputDiv {
+  display: none;
+}
+.checkListContainer {
+  margin: 2vw;
+  width: 30vw;
+}
+.checkL {
+  margin: 1vw;
+}
+.checkListContainer {
+  overflow: scroll;
+  max-height: 20vw;
+}
+.itemsContainer {
+  flex-direction: row;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+.buttonsOfCheckList,
+.buttonsOfCheckItems {
+  display: flex;
+  margin-bottom: 2vw;
+}
+.itemsContainer {
+  margin-left: 3vw;
+}
+.itemInputDiv {
+  display: none;
+}
+.checkListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

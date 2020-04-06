@@ -7,12 +7,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url('img/d5ae8190f0aa7dfbe0b01f336f29d44094b967b5.webp');
+  background-image: url('/img');
 }
 header {
   background-color: rgb(0, 0, 0, 0.2);
 }
-
 .trello-img {
   width: 80%;
   margin: auto;

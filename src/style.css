@@ -20,7 +20,7 @@ header {
   justify-content: center;
 }
 .trello-img img {
-  height: 5vw;
+  height: 5vh;
   opacity: 80%;
 }
 .board-name {

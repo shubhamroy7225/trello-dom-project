@@ -66,15 +66,8 @@
           <button class="addButton btn btn-success">+Add New Card</button>
         </div>
       </div>
-    </section>
-    <!--  <button
-          type="button"
-          class="btn btn-primary"
-          data-toggle="modal"
-          data-target="#exampleModalLong"
-        >
-          Launch demo modal
-        </button>--> 
+    </section> 
+
     <div
       class="modal fade"
       tabindex="-1"
@@ -85,9 +78,9 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">
+            <textarea class="modal-title" id="exampleModalLongTitle" style="width: 100%;">
               Modal title
-            </h5>
+            </textarea> 
             <button
               type="button"
               class="close"
@@ -101,7 +94,7 @@
             <button class="btn btn-default btn-primary newCheckListButton">
               Create New CheckList
             </button>
-            <div class="checkListContainer">shubham jayswal</div>
+            <div class="checkListContainer"></div>
             <div class="checkListInputDiv">
               <div class="checkListInput">
                 <input
@@ -110,7 +103,12 @@
                   placeholder="enter check list"
                 />
               </div>
-              
+              <div class="checkListButtons">
+                <button class="checkListAddButton btn btn-success">
+                  Add CheckList
+                </button>
+                <button class="checkListCloseButton btn btn-danger">X</button>
+              </div>
             </div>
           </div>
           <div class="modal-footer">
@@ -126,8 +124,8 @@
             </button>
           </div>
         </div>
-      </div> 
-    </div>  
+      </div>
+    </div>
     <script src="/javascript"></script>
   </body>
 </html>
